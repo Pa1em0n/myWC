@@ -1,7 +1,9 @@
+/*
+Programa que cuenta las lineas, palabras y caracteres de un fichero. 
+ */
 #include <stdlib.h>
 #include <stdio.h>
 #include <wctype.h>
-
 void contador(FILE *f){
   int pcont = 0;
   int ccont = 0;
